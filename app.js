@@ -23,18 +23,6 @@ localStorage.setItem("r",2);
 
 function decide(n){
 
-  // let user_score=document.querySelectorAll("#outer #title .score .num")[1];
-  // let computer_score=document.querySelectorAll("#outer #title .score .num")[0];
-  // user_score.textContent=localStorage.getItem("user_score");
-  // computer_score.textContent=localStorage.getItem("computer_score");
-
-
-
-
-
-
-
-
   console.log("called");
   let computer=Math.floor(Math.random()*3);
   let player=n;
@@ -181,7 +169,10 @@ function change_page(player,s){
 }
 
 
-// function update_score(){
-
-// }
-// update_score();
+function update_score(){
+let user_score=document.querySelectorAll("#outer #title .score .num")[1];
+  let computer_score=document.querySelectorAll("#outer #title .score .num")[0];
+  user_score.textContent=localStorage.getItem("user_score");
+  computer_score.textContent=localStorage.getItem("computer_score");
+}
+update_score();
