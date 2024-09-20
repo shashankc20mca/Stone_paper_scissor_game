@@ -39,7 +39,7 @@ localStorage.setItem("user_score",parseInt(localStorage.getItem("user_score"))+1
 
   
 
-if(player=="rock"&&arr=="scissors"){
+if(player=="rock"&&arr[computer]=="scissors"){
  
 
     localStorage.setItem("user_choice","assests/Rock.png");
@@ -47,7 +47,7 @@ if(player=="rock"&&arr=="scissors"){
 
 
 }
-else if (player=="paper"&&arr=="rock"){
+else if (player=="paper"&&arr[computer]=="rock"){
 
     localStorage.setItem("user_choice","assests/paper.png");
     localStorage.setItem("computer_choice","assests/Rock.png")
