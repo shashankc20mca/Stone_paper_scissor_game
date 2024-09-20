@@ -1,0 +1,357 @@
+*{
+  background-color: rgba(140, 196, 97, 1);
+}
+
+
+#title{
+  box-sizing: border-box;
+  border:2px solid white;
+  border-radius: 0.7rem;
+  width: 60vw;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#title .names{
+  box-sizing: border-box;
+ 
+  width: 60%;
+  
+}
+#title .names div{
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+#title .score{
+  box-sizing: border-box;
+ border:2px solid white;
+ width: 17%;
+ background-color: rgba(255, 255, 255, 1);
+ border-radius: 0.5rem;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ 
+}
+#title .score div{
+  background-color: inherit;
+ 
+  
+}
+#title .score .num{
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+#title .score .player{
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(101, 101, 101, 1);
+}
+#title .score .player1{
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(101, 101, 101, 1);
+}
+
+
+
+
+#outer{
+  box-sizing: border-box;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+
+}
+#selection{
+
+  box-sizing: border-box;
+position: relative;
+width: 60vw;
+height: 60vh;
+border-radius: 0.7rem;
+display: flex;
+justify-content: space-evenly;
+
+margin-top:2rem;
+margin-bottom: 2rem;
+padding-top:1rem;
+padding-bottom: 1rem;
+
+  
+  }
+
+
+  #selection .user{
+    box-sizing: border-box;
+    height: 97%;
+    width: 35%;
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #selection .user .user_1{
+font-size: 1.5rem;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+  }
+  #selection .user .user_2{
+    height: 10rem;
+    width: 10rem;
+   
+    border-radius: 9rem;
+     
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(189, 0, 255, 1);
+  }
+  #selection .user .user_2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+   
+    border-radius: 9rem;
+    background-color:rgba(255, 255, 255, 1);
+  }
+  #selection .user .user_2 div img{
+    background-color: inherit;
+  }
+
+
+  #selection .decide{
+  
+    align-self: center;
+    height: 70%;
+    width: 25%;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+
+  }
+  #selection .decide .decide_1{
+    font-size: 2.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+  }
+  #selection .decide .decide_2{
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+  }
+  #selection .decide .decide_3{
+  
+    color:rgba(107, 107, 107, 1);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0.5rem;
+    width: 9rem;
+    border-radius: 0.7rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  #selection .decide .decide_3 a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: inherit;
+    background-color: inherit;
+    
+  }
+
+
+
+  #selection .computer{
+    box-sizing: border-box;
+    height: 97%;
+    width: 35%;
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+
+  #selection .computer .computer_1{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+      }
+      #selection .computer .computer_2{
+        height: 10rem;
+    width: 10rem;
+        
+        border-radius: 9rem;
+       
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+         background-color: rgba(255, 169, 67, 1);
+         box-shadow: 0rem 0rem 4rem red; 
+      }
+      #selection .computer .computer_2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8rem;
+    width: 8rem;
+   
+       
+        border-radius: 9rem;
+        background-color:rgba(255, 255, 255, 1);
+      }
+      #selection .computer .computer_2 div img{
+        background-color: inherit;
+      }
+    
+
+
+
+
+
+  #outer  .rules_button{
+  
+align-self: flex-end;
+margin-right: 1rem;
+    border: 0.15rem solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    width:7rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+  
+  }
+  #outer .rules{
+    position: fixed;
+    right:-350px; 
+    
+  }
+  
+  #outer .move{
+    height: 20rem;
+    width: 20rem;
+   
+    position:absolute;
+    bottom:4rem;
+    right:2rem;
+   
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 1); 
+  }
+  #outer .rules #rules_inner{
+    padding: 0.3rem;
+    box-sizing: border-box;
+    height: 19rem;
+    width: 19rem;
+    position: absolute;
+    left:0.59rem;
+    top:0.59rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 68, 41, 1);
+   
+    
+  }
+  #outer .rules #rules_inner div{
+    background-color: inherit;
+    color:rgba(255, 255, 255, 1);
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2rem;
+    font-size: 1.81rem;
+    margin-top:1.5rem;
+  }
+  #outer .rules #rules_inner ul {
+    background-color: inherit;
+    margin:0.4rem;
+    padding: 1.5rem;
+    height: 50%;
+    
+  }
+  #outer .rules #rules_inner ul li {
+    background-color: inherit;
+    color:rgba(255, 255, 255, 1);
+    font-size: 0.9rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.2rem;
+    
+    
+    
+  
+  }
+  
+  #outer .del{
+    position: fixed;
+    right:-350px; 
+  }
+  #outer .move1{
+    height: 3.5rem;
+    width: 3.5rem;
+    
+    position:absolute; 
+    right: 0.5rem;
+    bottom:22rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  #outer .del_inner{
+    height: 3rem;
+    width: 3rem;
+   
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Dangrek", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+  
+  }

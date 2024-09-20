@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="outer">
+    
+    <div id="title">
+      <div class="names" ><div>ROCK</div>
+        <div >PAPER</div>
+        <div >SCISSORS</div></div>
+        <div class="score"><div class="player">COMPUTER</div> <div class="player1">SCORE</div><div class="num">0</div></div>
+        <div class="score"><div class="player">YOUR</div> <div class="player1">SCORE</div><div class="num">0</div></div>
+   </div> 
+      
+<div  id="selection">
+   <div class="triangle-down"></div>
+   <a><div id="rock" onclick="decide('rock')"><div id="rock_inner"><img src="assests/Rock.png" ></div></div></a>
+   <a><div id="scissors" onclick="decide('scissors')"><div id="scissors_inner"><img src="assests/scissor.png" ></div></div></a>
+   <a><div id="paper" onclick="decide('paper')"><div id="paper_inner"><img src="assests/paper.png" ></div></div></a>
+</div>
+<button onclick="movein()" >RULES</button>
+<div class="rules"><div id="rules_inner">
+  <div>Game Rules</div>
+  <ul>
+    <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+    <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+    <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+    <li>If both players lay down the same hand, each player lays down another hand</li>
+  </ul>
+</div></div>
+<div class="del">
+  <div class="del_inner" onclick="moveout()">x</div>
+</div>
+    </div>
+ 
+  <script rel="script" src="home.js"></script>
+  
+</body>
+</html>

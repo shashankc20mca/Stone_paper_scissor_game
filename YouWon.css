@@ -1,0 +1,166 @@
+*{
+  background-color: rgb(140, 196, 97);
+}
+#outer{
+  box-sizing: border-box;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+
+}
+#selection {
+  background-image: url("assests/Screenshot\ \(692\).png");
+  background-position: center;
+  background-size:contain;
+}
+#outer .decide_3{
+ 
+  color:rgba(107, 107, 107, 1);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.5rem;
+  width: 9rem;
+  border-radius: 0.7rem;
+  border: none;
+  cursor: pointer;
+}
+#outer .decide_3 a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  background-color: inherit;
+  color: inherit;
+}
+#selection{
+  box-sizing: border-box;
+position: relative;
+width: 60vw;
+height: 60vh;
+border-radius: 0.7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+margin-top:2rem;
+margin-bottom: 2rem;
+padding-bottom: 2rem;
+
+  
+  
+  }
+
+ 
+  #outer .rules_button{
+    align-self: flex-end;
+  margin-right: 1.5rem;
+    border: 0.15rem solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    width:7rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+  
+  }
+  #outer .rules{
+    position: fixed;
+    right:-350px; 
+    
+  }
+  
+  #outer .move{
+    height: 20rem;
+    width: 20rem;
+   
+    position:absolute;
+    bottom:5rem;
+    right:3rem;
+   
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 1); 
+  }
+  #outer .rules #rules_inner{
+    padding: 0.3rem;
+    box-sizing: border-box;
+    height: 19rem;
+    width: 19rem;
+    position: absolute;
+    left:0.59rem;
+    top:0.59rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 68, 41, 1);
+   
+    
+  }
+  #outer .rules #rules_inner div{
+    background-color: inherit;
+    color:rgba(255, 255, 255, 1);
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2rem;
+    font-size: 1.81rem;
+    margin-top:1.5rem;
+  }
+  #outer .rules #rules_inner ul {
+    background-color: inherit;
+    margin:0.4rem;
+    padding: 1.5rem;
+    height: 50%;
+    
+  }
+  #outer .rules #rules_inner ul li {
+    background-color: inherit;
+    color:rgba(255, 255, 255, 1);
+    font-size: 0.9rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.2rem;
+    
+    
+    
+  
+  }
+  
+  #outer .del{
+    position: fixed;
+    right:-350px; 
+  }
+  #outer .move1{
+    height: 3.5rem;
+    width: 3.5rem;
+    
+    position:absolute; 
+    right: 1.5rem;
+    bottom:23rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  #outer .del_inner{
+    height: 3rem;
+    width: 3rem;
+   
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Dangrek", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+  
+  }

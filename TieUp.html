@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="TieUp.css">
+
+</head>
+<body id="tie">
+  <div id="outer">
+    
+    <div id="title">
+      <div class="names"><div>ROCK</div>
+        <div>PAPER</div>
+        <div>SCISSORS</div></div>
+        <div class="score"><div class="player">COMPUTER</div> <div class="player1">SCORE</div><div class="num">0</div></div>
+        <div class="score"><div class="player">YOUR</div> <div class="player1">SCORE</div><div class="num">0</div></div>
+   </div>
+   <div  id="selection">
+<div class="user">
+<div class="user_1">YOU PICKED</div>
+<div class="user_2"><div><img src="assests/scissor.png"></div></div>
+
+
+</div>
+<div class="decide">
+
+  <div class="decide_1">TIE UP</div>
+<button class="decide_3"><a href="Home.html">REPLAY</a></button>
+  
+</div>
+<div class="computer">
+  <div class="computer_1">PC PICKED</div>
+<div class="computer_2"><div><img src="assests/paper.png"></div></div>
+</div>
+
+
+   </div>
+  
+  
+   <button class="rules_button" onclick="movein()" >RULES</button>
+   
+ 
+   <div class="rules"><div id="rules_inner">
+    <div>Game Rules</div>
+    <ul>
+      <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+      <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+      <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+      <li>If both players lay down the same hand, each player lays down another hand</li>
+    </ul>
+  </div></div>
+  <div class="del">
+    <div class="del_inner" onclick="moveout()">x</div>
+  </div>
+   
+  
+   </div> 
+  <script rel="script" src="TieUp.js"></script>
+  <script rel="scrip" src="home.js"></script>
+</body>
+</html>
