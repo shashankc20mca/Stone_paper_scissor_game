@@ -11,21 +11,25 @@ function moveout()  {
   s.classList.remove("move1");
 }
 
-
+localStorage.setItem("r",1);
+if(localStorage.getItem("r")==1){
+  localStorage.setItem("user_score",0);
+localStorage.setItem("computer_score",0);
+localStorage.setItem("r",2);
+}
 
 
 
 
 function decide(n){
 
-  let user_score=document.querySelectorAll("#outer #title .score .num")[1];
-  let computer_score=document.querySelectorAll("#outer #title .score .num")[0];
-  user_score.textContent=localStorage.getItem("user_score");
-  computer_score.textContent=localStorage.getItem("computer_score");
+  // let user_score=document.querySelectorAll("#outer #title .score .num")[1];
+  // let computer_score=document.querySelectorAll("#outer #title .score .num")[0];
+  // user_score.textContent=localStorage.getItem("user_score");
+  // computer_score.textContent=localStorage.getItem("computer_score");
 
 
-// localStorage.setItem("user_score",0);
-// localStorage.setItem("computer_score",0);
+
 
 
 
