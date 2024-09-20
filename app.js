@@ -11,13 +11,26 @@ function moveout()  {
   s.classList.remove("move1");
 }
 
-// localStorage.setItem("user_score",0);
-// localStorage.setItem("computer_score",0);
+
 
 
 
 
 function decide(n){
+
+  // let user_score=document.querySelectorAll("#outer #title .score .num")[1];
+  // let computer_score=document.querySelectorAll("#outer #title .score .num")[0];
+  // user_score.textContent=localStorage.getItem("user_score");
+  // computer_score.textContent=localStorage.getItem("computer_score");
+
+
+localStorage.setItem("user_score",0);
+localStorage.setItem("computer_score",0);
+
+
+
+
+
   console.log("called");
   let computer=Math.floor(Math.random()*3);
   let player=n;
@@ -164,10 +177,7 @@ function change_page(player,s){
 }
 
 
-function update_score(){
-  let user_score=document.querySelectorAll("#outer #title .score .num")[1];
-  let computer_score=document.querySelectorAll("#outer #title .score .num")[0];
-  user_score.textContent=localStorage.getItem("user_score");
-  computer_score.textContent=localStorage.getItem("computer_score");
-}
-update_score();
+// function update_score(){
+
+// }
+// update_score();
