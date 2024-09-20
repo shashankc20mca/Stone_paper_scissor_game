@@ -27,7 +27,11 @@ function decide(n){
   
   if((player=="rock"&&arr[computer]=="scissors")||(player=="paper"&&arr[computer]=="rock")||(player=="scissors"&&arr[computer]=="paper")){
     //win
-    localStorage.setItem("user_score",parseInt(localStorage.getItem("user_score"))+1);
+    if(localStorage.getItem("user_score")==NaN){
+      localStorage.setItem("user_score",1);
+    }
+    else
+{  localStorage.setItem("user_score",parseInt(localStorage.getItem("user_score"))+1);}  
 
   
 
