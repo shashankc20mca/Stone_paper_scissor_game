@@ -11,7 +11,12 @@ function moveout()  {
   s.classList.remove("move1");
 }
 
-
+if(localStorage.getItem("user_score")==null){
+  localStorage.setItem("user_score",0);
+}
+if(localStorage.getItem("computer_score")==null){
+  localStorage.setItem("computer_score",0);
+}
 
 
 
@@ -24,14 +29,13 @@ function decide(n){
   console.log(arr[computer]);
   console.log(player);
 
+ 
   
   if((player=="rock"&&arr[computer]=="scissors")||(player=="paper"&&arr[computer]=="rock")||(player=="scissors"&&arr[computer]=="paper")){
     //win
-    if(localStorage.getItem("user_score")==NaN){
-      localStorage.setItem("user_score",1);
-    }
-    else
-{  localStorage.setItem("user_score",parseInt(localStorage.getItem("user_score"))+1);}  
+   
+    
+localStorage.setItem("user_score",parseInt(localStorage.getItem("user_score"))+1); 
 
   
 
