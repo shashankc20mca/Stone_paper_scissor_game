@@ -11,12 +11,6 @@ function moveout()  {
   s.classList.remove("move1");
 }
 
-localStorage.setItem("r",1);
-if(localStorage.getItem("r")==1){
-  localStorage.setItem("user_score",0);
-localStorage.setItem("computer_score",0);
-localStorage.setItem("r",2);
-}
 
 
 
