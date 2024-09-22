@@ -29,7 +29,7 @@
 #title .score{
   box-sizing: border-box;
  border:2px solid white;
- width: 17%;
+ min-width: 17%;
  background-color: rgba(255, 255, 255, 1);
  border-radius: 0.5rem;
  display: flex;
@@ -322,5 +322,48 @@ right:1rem;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 0, 0, 1);
   cursor: pointer;
+
+}
+
+@media screen and (max-width:412px) {
+  html{
+    font-size: 13px;
+  }
+  #outer{
+    margin-top: 1rem;
+    height: 85vh;
+    
+  }
+  #title{
+    width: 95%;
+    height: 40%;
+    flex-direction: column;
+    
+  }
+  #title .names{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  #title .score{
+    align-self: center;
+   width: 50%;
+  }
+  #selection {
+    
+    width: 90%;
+    height: 40%;
+    
+    
+  }
+  #outer .move{
+    right: 1rem;
+    bottom:5rem;
+  }
+  #outer .move1{
+    right: 0.5rem;
+    bottom:22rem;
+  }
 
 }

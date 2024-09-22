@@ -355,3 +355,66 @@ margin-right: 1rem;
     cursor: pointer;
   
   }
+  @media screen and (max-width:413px) {
+    html{
+      font-size: 13px;
+    }
+    #outer{
+      
+      height: 97vh;
+     
+    }
+    #title{
+      width: 99%;
+      height: 35%;
+      flex-direction: column;
+      
+    }
+    #title .names{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+     
+    }
+    #title .score{
+      align-self: center;
+     width: 50%;
+    }
+    #selection {
+      flex-direction: column;
+      
+      align-items: center;
+      width: 98%;
+      height: 55%;
+      
+      
+    }
+    #selection .decide{
+      width: 97%;
+      
+      flex-direction: row;
+    }
+    #selection .decide .decide_1{
+      width: 30%;
+      text-align: center;
+      
+    }
+    #selection .decide .decide_2{
+      height: 50%;
+      width: 30%;
+      text-align: center;
+     
+    }
+    #selection .decide .decide_3{
+     
+      width: 30%;
+    }
+    #outer .move{
+      right: 1rem;
+      bottom:5rem;
+    }
+    #outer .move1{
+      right: 0.5rem;
+      bottom:22rem;
+    }
+  }
