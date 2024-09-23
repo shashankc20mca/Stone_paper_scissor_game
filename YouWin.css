@@ -26,6 +26,16 @@
   font-weight: 600;
   letter-spacing: 0.2rem;
   color: rgba(255, 255, 255, 1);
+  transition: all 0.5s ease-in 0s;
+}
+#title .names .ro:hover{
+  font-size: 2.5rem;
+}
+#title .names .pap:hover{
+  font-size: 2.5rem;
+}
+#title .names .sci:hover{
+  font-size: 2.5rem;
 }
 
 #title .score{
@@ -37,7 +47,13 @@
  display: flex;
  flex-direction:column;
  align-items: center;
+ color:rgba(37, 37, 37, 1);
+ transition: all 0.5s ease-in 0s;
  
+}
+
+#title .score:hover{
+  transform: scale(1.1,1.1);
 }
 #title .score div{
   background-color: inherit;
@@ -120,12 +136,24 @@ color: rgba(255, 255, 255, 1);
     width: 10rem;
    
     border-radius: 9rem;
-     box-shadow: 0rem 0rem 4rem red; 
+    animation: box_shadow 1.5s ease-in-out 0s infinite alternate;
+     
     display: flex;
     
     justify-content: center;
     align-items: center;
     background-color: rgba(189, 0, 255, 1);
+    transition: 2s;
+  }
+  @keyframes box_shadow {
+    0%{box-shadow: 0rem 0rem 1rem red; }
+    50%{box-shadow: 0rem 0rem 8rem red; }
+    100%{box-shadow: 0rem 0rem 4rem red;}
+    100%{box-shadow: 0rem 0rem 2rem red;}
+  }
+
+  #selection .user .user_2:hover{
+    transform: scale(1.1,1.1);
   }
   #selection .user .user_2 div{
     display: flex;
@@ -177,7 +205,10 @@ color: rgba(255, 255, 255, 1);
     width: 9rem;
     border-radius: 0.7rem;
     border: none;
-   
+    transition: 1s;
+  }
+  #selection .decide .decide_3:hover{
+    transform: scale(1.1,1.1);
   }
   #selection .decide .decide_3 a{
     text-decoration: none;
@@ -222,8 +253,12 @@ color: rgba(255, 255, 255, 1);
         
         justify-content: center;
         align-items: center;
-         background-color: rgba(255, 169, 67, 1);;
+         background-color: rgba(255, 169, 67, 1);
+         transition: 2s;
       }
+      #selection .computer .computer_2:hover{
+        transform: scale(1.1,1.1);
+       }
       #selection .computer .computer_2 div{
         display: flex;
         justify-content: center;
@@ -253,6 +288,7 @@ color: rgba(255, 255, 255, 1);
   
 }
 
+
   #outer .menu_button .rules_button{
   
 
@@ -266,7 +302,10 @@ color: rgba(255, 255, 255, 1);
     border-radius: 0.5rem;
     letter-spacing: 0.2rem;
     cursor: pointer;
-  
+    transition: all 0.5s ease-in 0s;
+  }
+  #outer .menu_button .rules_button:hover{
+    transform: scale(1.1,1.1);
   }
 
 

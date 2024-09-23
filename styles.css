@@ -24,7 +24,18 @@
   font-weight: 600;
   letter-spacing: 0.2rem;
   color: rgba(255, 255, 255, 1);
+  transition: all 0.5s ease-in 0s;
 }
+#title .names .ro:hover{
+  font-size: 2.5rem;
+}
+#title .names .pap:hover{
+  font-size: 2.5rem;
+}
+#title .names .sci:hover{
+  font-size: 2.5rem;
+}
+
 
 #title .score{
   box-sizing: border-box;
@@ -35,8 +46,14 @@
  display: flex;
  flex-direction:column;
  align-items: center;
+ color:rgba(37, 37, 37, 1);
+ transition: all 0.5s ease-in 0s;
  
 }
+#title .score:hover{
+  transform: scale(1.1,1.1);
+}
+
 #title .score div{
   background-color: inherit;
  
@@ -132,7 +149,14 @@ left:1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in 0s;
 }
+#outer #selection #rock:hover{
+  height: 8.5rem;
+  width: 8.5rem;
+}
+
 #outer #rock #rock_inner{
   height: 6.1rem;
   width: 6.1rem;
@@ -162,7 +186,14 @@ left:1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in 0s;
 }
+#outer #selection #scissors:hover{
+  height: 8.5rem;
+  width: 8.5rem;
+}
+
 #outer #scissors #scissors_inner
 {
   height: 6.1rem;
@@ -185,7 +216,7 @@ left:1rem;
   height: 7.81rem;
   width: 7.81rem;
   border-radius: 10rem;
-  
+  cursor: pointer;
   position:relative;
 bottom:-6rem;
 right: 8rem;
@@ -194,8 +225,14 @@ right: 8rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s ease-in 0s;
 
 }
+#outer #selection #paper:hover{
+  height: 8.5rem;
+  width: 8.5rem;
+}
+
 #outer #paper #paper_inner
 {
   height: 6.1rem;
@@ -227,7 +264,11 @@ right:1rem;
   border-radius: 0.5rem;
   letter-spacing: 0.2rem;
   cursor: pointer;
+  transition: all 0.5s ease-in 0s;
 
+}
+#outer button:hover{
+transform: scale(1.1,1.1);
 }
 #outer .rules{
   position: fixed;
